@@ -1,88 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mentara Fits</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      margin: 0;
-      font-family: 'Satoshi', sans-serif;
-      background-color: #f9f5f0;
-      color: #3e2c23;
-    }
-    header {
-      text-align: center;
-      padding: 3rem 1rem;
+      font-family: 'Poppins', sans-serif;
       background-color: #fff;
+      color: #3e2c23;
+      margin: 0;
+      padding: 0;
     }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      font-weight: 500;
-    }
-    section {
-      padding: 2rem 1rem;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .hero-img {
-      width: 100px;
-      margin: 2rem auto;
-      display: block;
-    }
-    .cta {
-      text-align: center;
-      margin-top: 2rem;
-    }
-    .cta a {
+
+    header {
       background-color: #3e2c23;
       color: #fff;
-      padding: 0.75rem 1.5rem;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    form input[type="email"] {
+      padding: 0.5rem;
+      width: 60%;
+      max-width: 300px;
+      margin-top: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      background-color: #3e2c23;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border: none;
       border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: background 0.3s;
+      margin-top: 1rem;
+      cursor: pointer;
     }
-    .cta a:hover {
-      background-color: #5c3f2a;
+
+    .quote-box {
+      background: #f6f3f0;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      border-left: 4px solid #3e2c23;
+      width: 80%;
+      max-width: 500px;
+      font-style: italic;
     }
+
     footer {
       text-align: center;
       padding: 1rem;
-      font-size: 0.9rem;
-      color: #6b5e54;
+      background-color: #3e2c23;
+      color: white;
+    }
+
+    footer a {
+      color: #ffd9b3;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    .btn-main {
+      background-color: #3e2c23;
+      color: white;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 1rem;
     }
   </style>
 </head>
+
 <body>
   <header>
-    <img src="logo.png" alt="Mentara Fits Logo" class="hero-img">
     <h1>Mentara Fits</h1>
-    <p>Affirm it. Wear it. Live it.</p>
+    <p>Affirm it. Wear it. Live it. ✨<br>🧠Wear positivity ,live your truth 🛡️.</p>
+    <button class="btn-main">Explore</button>
   </header>
 
   <section>
-    <h2>About the Brand</h2>
-    <p>Mentara Fits is more than a clothing line — it's a movement. Our pieces combine self-love, growth, and modern streetwear to remind you of your power every time you get dressed.</p>
+    <h2>About Us</h2>
+    <p>Mentara Fits blends style with mindset. We design clothing that empowers your personal growth and reminds you who you truly are — strong, focused, and limitless.</p>
+  </section>
+
+  <section>
+    <h2>Daily Affirmations</h2>
+    <div class="quote-box">🌱 I am growing every day.</div>
+    <div class="quote-box">🔥 I wear confidence like a crown.</div>
+    <div class="quote-box">✨ My mindset defines my style.</div>
   </section>
 
   <section>
     <h2>Coming Soon</h2>
-    <p>We're crafting our first collection of affirmation wear. Stay tuned for drops that align with your journey and your mindset.</p>
+    <p>Exclusive drops that merge affirmation with fashion. Stay tuned.</p>
+    <img src="https://via.placeholder.com/400x300?text=Your+Design+Here" alt="Coming Soon" style="width: 80%; max-width: 400px; border-radius: 10px;">
   </section>
 
-  <section class="cta">
-    <h2>Be the First to Know</h2>
-    <p>Get updates, drops, and affirmations straight to your inbox.</p>
-    <a href="#">Join the Journey</a>
+  <section>
+    <h2>Join the Movement</h2>
+    <p>Be the first to hear about our drops and mindset content.</p>
+    <form action="#" method="post">
+      <input type="email" placeholder="Your email" required>
+      <br>
+      <button type="submit">Subscribe</button>
+    </form>
   </section>
 
   <footer>
-    &copy; 2021 Mentara Fits. Built with love, heart and vision.
+    &copy; 2025 Mentara Fits. Built with love, heart and vision. <br><br>
+    <a href="https://instagram.com/Mentara_Fits" target="_blank">📸 Instagram</a> |
+    <a href="mailto:orfanyoussef@gmail.com">✉️ Email Us</a>
   </footer>
 </body>
+
+</html>
+
 </html>
